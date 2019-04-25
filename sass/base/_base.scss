@@ -35,3 +35,9 @@ body {
     padding: 0;
   }
 }
+
+// changing color for text selection
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
